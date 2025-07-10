@@ -39,9 +39,9 @@
 .navigation{
     display: flex;
     list-style: none;
+    padding-left: 0;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 150px;
 }
 
 .navigation a{
@@ -52,19 +52,34 @@
     font-size: 34px;
 }
 
+.nav{
+    padding: 50px 150px 0;
+}
+
 /* banner-section styles */
 
 .banner{
     text-align: center;
 }
 
-.banner-title{
-    font-size: 65px;
+.banner-heading{
     max-width: 905px;
-    margin: 0 auto;
+    margin: 158px auto 37px;
 }
 
+.banner-title{
+    font-size: 65px;
+    margin: 0;
+}
 .banner-button{
     width: 174px;
-    margin-top: 37px;
+}
+
+/* back-ground image styles */
+
+header{
+    background-image: url(../Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    height: 698px;
+    background-size: 100% 698px;
 }
