@@ -15,9 +15,14 @@
 
 /* shared styles */
 
-.primary-color{
+.color-1{
     color: #4E47FF;
 }
+
+.color-2{
+    color: #252432;
+}
+
 
 .btn-primary{
     font-size: 16px;
@@ -45,4 +50,21 @@
 
 .logo{
     font-size: 34px;
+}
+
+/* banner-section styles */
+
+.banner{
+    text-align: center;
+}
+
+.banner-title{
+    font-size: 65px;
+    max-width: 905px;
+    margin: 0 auto;
+}
+
+.banner-button{
+    width: 174px;
+    margin-top: 37px;
 }
