@@ -34,6 +34,15 @@
     border-radius: 10px;
 }
 
+.btn-primary:hover{
+    font-size: 1.25em;
+    font-weight: normal;
+    color: black;
+    background-color:yellow;
+    height: 50.4px;
+    width: 138.6px;
+}
+
 /* body section styles */
 
 body{
@@ -41,6 +50,9 @@ body{
     background-color: #f4f7fe;
 }
 
+a{
+    text-decoration: none;
+}
 /* navigation section styles */
 .navigation{
     display: flex;
@@ -81,6 +93,10 @@ body{
     width: 174px;
 }
 
+.banner-button:hover{
+    width: 182.7px;
+}
+
 /* back-ground image styles */
 
 header{
@@ -119,6 +135,10 @@ main{
 }
 .action-btn{
     width: 229px;
+}
+
+.action-btn:hover{
+    width: 240.45px;
 }
 
 .action-img img{
@@ -203,6 +223,10 @@ main{
 
 .git-btn{
     width: 497px;
+}
+
+.git-btn:hover{
+    width: 521.85px;
 }
 
 /* footer section styles */
