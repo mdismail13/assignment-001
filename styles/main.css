@@ -72,7 +72,7 @@ a{
 }
 
 .nav{
-    padding: 50px 150px 0;
+    padding: 0 150px 0;
 }
 
 /* banner-section styles */
@@ -131,6 +131,7 @@ main{
 
 .action-description{
     font-size: 24px;
+    color: #25243280;
     margin-bottom: 23px;
 }
 .action-btn{
@@ -177,6 +178,7 @@ main{
 .user-subtitle{
     font-size: 20px;
     text-align: center;
+    color: #00000080;
 }
 
 /* get in touch section styles */
