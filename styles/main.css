@@ -23,6 +23,7 @@
 }
 
 
+
 .btn-primary{
     font-size: 16px;
     font-weight: bold;
@@ -32,6 +33,13 @@
     color: #FFFFFF;
     border: none;
     border-radius: 10px;
+}
+
+/* body section styles */
+
+body{
+
+    background-color: #f4f7fe;
 }
 
 /* navigation section styles */
@@ -152,3 +160,48 @@ main{
     text-align: center;
 }
 
+/* get in touch section styles */
+
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 116px;
+}
+
+
+.git-title{
+    font-size: 97px;
+    font-weight: bold; 
+    width: 528px;
+}
+
+
+.git-form label{
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-top: 19px;
+    margin-bottom: 10px;
+}
+
+.git-form input[type="email"], input[type="text"], textarea{
+    height: 30px;
+    width: 437px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #00000080;
+    border: none;
+    padding: 20px 30px;
+    background-color: white;
+    display: block;
+}
+
+.git-form textarea{
+    height: 135px;
+    margin-bottom: 19px;
+}
+
+.git-btn{
+    width: 497px;
+}
