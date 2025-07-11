@@ -303,7 +303,7 @@ main{
 .footer{
     margin-top: 116px;
     text-align: center;
-    padding: 104px 455px;
+    padding: 104px auto;
     background-color: white;
 }
 
