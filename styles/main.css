@@ -154,7 +154,8 @@ main{
 
 .user-information{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    align-items: center;
 }
 
 .user-title{
@@ -162,7 +163,7 @@ main{
     font-weight: bold;
     color: #4E47FF;
     margin-top: 40px;
-    margin-bottom: 3px;
+    margin-bottom: -10px;
     text-align: center;
 }
 
@@ -219,10 +220,12 @@ main{
     color: #757575;
     font-size: 14px;
 }
+    
 .date{
     margin-top: 2px;
     color: #B3B3B3;
     font-size: 13px;
+    margin-top: -20px;
 }
 /* focus better section styles */
 .focus-better{
